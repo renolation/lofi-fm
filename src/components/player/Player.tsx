@@ -91,7 +91,7 @@ function Player({ player }: PlayerProps) {
   };
 
   const handleInfoClick = () => {
-    setPlayerData((prev) => ({ ...prev, showSongsList: false }));
+    setPlayerData((prev) => ({ ...prev, showSongsList: true }));
     setShowInfo((prev) => (prev === null ? false : true));
   };
 
